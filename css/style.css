@@ -72,3 +72,72 @@ img {
 .pointer {
     cursor: pointer;
 }
+
+
+/* header */
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    font-family: "Homemade apple";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2.16;
+    color: var(--primary-text-color);
+    text-decoration: none;
+    margin-left: 80px;
+    text-align: center;
+    display: block;
+}
+
+.header-list {
+    display: flex;
+    margin-left: 433px;
+}
+
+.nav-item .link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    color: var(--primary-text-color);
+
+    display: block;
+    padding-top: 47px;
+    padding-bottom: 47px;
+}
+
+.nav-item .link:hover {
+    color: var(--accent-color);
+}
+
+.header-list .nav-item:not(:last-child) {
+    margin-right: 31px;
+}
+
+.header-btn {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
+    border-radius: 5px;
+    border: 1px solid var(--accent-color);
+    padding: 14px 17px 8px 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    margin-left: auto;
+    margin-right: 34px;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+} 
+/* header */
