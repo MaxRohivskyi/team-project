@@ -72,3 +72,38 @@ img {
 .pointer {
     cursor: pointer;
 }
+
+
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, ul, p {
+    padding: 0;
+    margin: 0;
+}
+.footer-contact-list {
+    justify-content: center;
+    margin-bottom: 72px;
+}
+.footer-contact-item {
+    margin-right: 24px;
+}
+.footer-down-list {
+    justify-content: center;
+}
+.footer-down-item {
+    margin-right: 14px;
+}
+.footer-down-text {
+    font-size: 14px;
+    line-height: 1.41;
+    text-align: center;
+    color: var(--main-text-color);
+}
+.flex-list {
+    display: flex;
+    list-style: none;
+}
+.last {
+    margin-right: 0;
+}
