@@ -114,3 +114,15 @@ img {
   color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
 }
+
+/*--------------- GIFTS-SECTION---------- */
+
+.gifts {
+  /* padding-bottom: 94px;
+  padding-top: 135px; */
+  padding: 94px 135px 135px 135px;
+}
+
+.gifts-list {
+  display: flex;
+}
