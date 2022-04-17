@@ -1,0 +1,74 @@
+:root {
+    --primary-text-color: #000000;
+    --accent-color: #F7941E;
+    --secondary-accent-color: #231F20;
+    --section-background-color: #FAFAFA;
+    --secondary-background-color: #F1F1F2;
+    --primary-white-color: #ffffff;
+
+    --time-animation: 250ms;
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    color: var(--primary-text-color);
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+
+    background-color: var(--primary-white-color);
+}
+
+/* утиліти */
+
+.list {
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+}
+
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* margin-left: auto;
+  margin-right: auto; */
+    margin: 0 auto;
+}
+
+.container-hero,
+.container-concept {
+    width: 1440px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.pointer {
+    cursor: pointer;
+}
